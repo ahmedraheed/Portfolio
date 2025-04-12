@@ -115,27 +115,30 @@
     </div>
   </section>
 
-  <!-- Contact Form Section -->
-  <section id="contact-form" class="bg-gray-100 py-12 px-6">
-    <div class="max-w-3xl mx-auto bg-white p-10 rounded-lg shadow">
-      <h2 class="text-2xl font-bold text-blue-900 mb-4 text-center">Contact Us</h2>
-      <form class="space-y-6">
-        <div>
-          <label class="block mb-2 text-sm font-medium text-gray-700">Name</label>
-          <input type="text" class="w-full border border-gray-300 rounded px-4 py-2" placeholder="Your Name">
-        </div>
-        <div>
-          <label class="block mb-2 text-sm font-medium text-gray-700">Email</label>
-          <input type="email" class="w-full border border-gray-300 rounded px-4 py-2" placeholder="your@email.com">
-        </div>
-        <div>
-          <label class="block mb-2 text-sm font-medium text-gray-700">Message</label>
-          <textarea class="w-full border border-gray-300 rounded px-4 py-2" rows="4" placeholder="Write your message..."></textarea>
-        </div>
-        <button type="submit" class="bg-blue-900 text-white px-6 py-2 rounded hover:bg-blue-800">Send Message</button>
-      </form>
-    </div>
-  </section>
+ <!-- Contact Form Section -->
+<section id="contact-form" class="bg-gray-100 py-12 px-6">
+  <div class="max-w-3xl mx-auto bg-white p-10 rounded-lg shadow">
+    <h2 class="text-2xl font-bold text-blue-900 mb-4 text-center">Contact Us</h2>
+
+    <!-- Added enctype for Formspree to work correctly -->
+    <form action="https://formspree.io/f/mnnpwzqo" method="POST" enctype="multipart/form-data" class="space-y-6">
+      <div>
+        <label class="block mb-2 text-sm font-medium text-gray-700">Name</label>
+        <input type="text" name="name" class="w-full border border-gray-300 rounded px-4 py-2" placeholder="Your Name">
+      </div>
+      <div>
+        <label class="block mb-2 text-sm font-medium text-gray-700">Email</label>
+        <input type="email" name="email" class="w-full border border-gray-300 rounded px-4 py-2" placeholder="your@email.com">
+      </div>
+      <div>
+        <label class="block mb-2 text-sm font-medium text-gray-700">Message</label>
+        <textarea name="message" class="w-full border border-gray-300 rounded px-4 py-2" rows="4" placeholder="Write your message..."></textarea>
+      </div>
+      <button type="submit" class="bg-blue-900 text-white px-6 py-2 rounded hover:bg-blue-800">Send Message</button>
+    </form>
+  </div>
+</section>
+
 
   <!-- Footer -->
   <footer class="text-center text-sm p-4 text-gray-500 bg-blue-50">
