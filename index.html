@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800 font-sans">
+  <!-- Navbar -->
+  <nav class="bg-blue-900 text-white p-4 shadow">
+    <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center">
+      <div class="text-xl font-bold mb-2 md:mb-0">Portfolio</div>
+      <div class="space-x-4 text-sm font-semibold">
+        <a href="#about" class="hover:underline">About us</a>
+        <a href="#Resources" class="hover:underline">Resources</a>
+        <a href="#blog" class="hover:underline">Projects</a>
+        <a href="#jobs" class="hover:underline">Jobs</a>
+        <a href="#contact-form" class="hover:underline">Contact Us</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-r from-gray-100 to-gray-300 py-20 text-center">
+    <h1 class="text-4xl md:text-5xl font-bold text-blue-900">Python/Django developer</h1>
+    <img src="https://cdn-icons-png.flaticon.com/512/1055/1055687.png" alt="Developer Illustration" class="mx-auto mt-8 w-48">
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about" class="py-16 px-6 bg-white">
+    <div class="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-10">
+      <div class="w-full md:w-1/3">
+        <img src="ChatGPT Image Apr 11, 2025, 12_43_13 AM.png" alt="Meer Ahmed Rasheed" class=" shadow-lg mx-auto w-64 h-100 object-cover border-4  transition-transform duration-300 hover:scale-105">
+    </div>
+      <div class="w-full md:w-2/3">
+        <h2 class="text-3xl font-bold text-blue-900 mb-4">Hi, I'm Meer Ahmed Rasheed</h2>
+        <p class="text-gray-700 text-sm leading-relaxed">
+          I'm a passionate Python/Django developer with over 3 years of hands-on experience in backend development, API integration, and building scalable web applications. I’ve worked across multiple SaaS platforms, dashboards, and secure data-driven systems—always with a focus on clean architecture, performance, and long-term maintainability.
+          <br><br>
+          My core stack includes Python, Django, and FastAPI, and I’ve built everything from robust RESTful APIs to real-time features using WebSockets and Django Channels. I have solid experience integrating third-party services like Stripe and PayPal for payment processing, and I’ve also developed secure authentication systems using JWT, OAuth, and social login flows.
+          <br><br>
+          In recent projects, I’ve implemented chat systems, integrated LLMs (like OpenAI GPT) into websites for smart AI-powered features, and worked on asynchronous task queues with Celery and Redis. Whether it’s connecting complex APIs, scaling backend logic, or automating processes, I enjoy bringing together the pieces to build powerful, user-friendly platforms.  
+          <br><br>
+          Beyond writing code, I’ve taken on leadership roles—mentoring junior devs, conducting code reviews, and actively participating in project planning and architecture decisions. I strongly believe in building clean, collaborative, and efficient tech teams.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Card Section -->
+  <section id="Resources" class="py-16 px-6 bg-white">
+    <div class="max-w-5xl mx-auto grid md:grid-cols-3 gap-6">
+      <div class="border rounded-lg shadow p-6 text-center">
+        <img src="https://cdn-icons-png.flaticon.com/512/1046/1046874.png" alt="Experience Icon" class="w-16 h-16 mx-auto mb-4">
+        <h3 class="text-xl font-semibold text-blue-800 mb-2">Experience</h3>
+        <p class="text-sm text-gray-700">3+ years of backend development with Django, REST APIs, PostgreSQL, and deployment experience.</p>
+      </div>
+      <div class="border rounded-lg shadow p-6 text-center">
+        <img src="https://cdn-icons-png.flaticon.com/512/1077/1077012.png" alt="Skills Icon" class="w-16 h-16 mx-auto mb-4">
+        <h3 class="text-xl font-semibold text-blue-800 mb-2">Skills</h3>
+        <p class="text-sm text-gray-700">Python, Django, HTML/CSS, JavaScript, Git, Docker, DRF, Celery,Channels, PostgreSQL,AWS,EC2,CI/CD,Verserl, Tailwind CSS.</p>
+      </div>
+      <div class="border rounded-lg shadow p-6 text-center">
+        <img src="https://cdn-icons-png.flaticon.com/512/109/109613.png" alt="Projects Icon" class="w-16 h-16 mx-auto mb-4">
+        <h3 class="text-xl font-semibold text-blue-800 mb-2">Projects</h3>
+        <p class="text-sm text-gray-700">Worked on scalable SaaS applications, admin dashboards, and e-commerce integrations.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog Section -->
+  <section id="blog" class="py-16 px-6 bg-gray-100">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-3xl font-bold text-center text-blue-900 mb-10">Latest Projects</h2>
+      <div class="space-y-10">
+        <!-- Blog Post 1 -->
+        <div class="flex flex-col md:flex-row bg-white rounded-lg shadow overflow-hidden">
+          <div class="md:w-1/2 h-60 overflow-hidden">
+            <img src="https://images.pexels.com/photos/7343000/pexels-photo-7343000.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Blog Image" class="object-cover w-full h-full">
+          </div>
+          <div class="p-6 md:w-1/2">
+            <h3 class="text-xl font-semibold text-blue-800 mb-2">How I Built a Real-time Chat App with Django</h3>
+            <p class="text-sm text-gray-700 mb-4">A detailed breakdown of how I used Django Channels, WebSockets, and Redis to build a full-featured real-time chat app with user authentication and private messaging.</p>
+            <a href="https://github.com/ahmedraheed" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline font-semibold">Read More →</a>
+          </div>
+        </div>
+
+        <!-- Blog Post 2 -->
+        <div class="flex flex-col md:flex-row bg-white rounded-lg shadow overflow-hidden">
+          <div class="md:w-1/2 h-60 overflow-hidden">
+            <img src="https://images.pexels.com/photos/4976710/pexels-photo-4976710.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Blog Image" class="object-cover w-full h-full">
+          </div>
+          <div class="p-6 md:w-1/2">
+            <h3 class="text-xl font-semibold text-blue-800 mb-2">Mastering Django REST Framework</h3>
+            <p class="text-sm text-gray-700 mb-4">Learn how I structure APIs using Django REST Framework, build serializers, handle permissions, and manage pagination in production apps.</p>
+            <a href="https://github.com/ahmedraheed" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline font-semibold">Read More →</a>
+          </div>
+        </div>
+        <!-- Blog Post 3 -->
+        <div class="flex flex-col md:flex-row bg-white rounded-lg shadow overflow-hidden">
+            <div class="md:w-1/2 h-60 overflow-hidden">
+              <img src="https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Blog Image" class="object-cover w-full h-full">
+            </div>
+            <div class="p-6 md:w-1/2">
+              <h3 class="text-xl font-semibold text-blue-800 mb-2">Mastering FastAPI Framework</h3>
+              <p class="text-sm text-gray-700 mb-4">Learn how I structure APIs using FastAPI, define Pydantic models, implement dependency injection, handle authentication and authorization, and manage pagination in production-grade applications.
+
+              </p>
+              <a href="https://github.com/ahmedraheed" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline font-semibold">Read More →</a>
+            </div>
+          </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form Section -->
+  <section id="contact-form" class="bg-gray-100 py-12 px-6">
+    <div class="max-w-3xl mx-auto bg-white p-10 rounded-lg shadow">
+      <h2 class="text-2xl font-bold text-blue-900 mb-4 text-center">Contact Us</h2>
+      <form class="space-y-6">
+        <div>
+          <label class="block mb-2 text-sm font-medium text-gray-700">Name</label>
+          <input type="text" class="w-full border border-gray-300 rounded px-4 py-2" placeholder="Your Name">
+        </div>
+        <div>
+          <label class="block mb-2 text-sm font-medium text-gray-700">Email</label>
+          <input type="email" class="w-full border border-gray-300 rounded px-4 py-2" placeholder="your@email.com">
+        </div>
+        <div>
+          <label class="block mb-2 text-sm font-medium text-gray-700">Message</label>
+          <textarea class="w-full border border-gray-300 rounded px-4 py-2" rows="4" placeholder="Write your message..."></textarea>
+        </div>
+        <button type="submit" class="bg-blue-900 text-white px-6 py-2 rounded hover:bg-blue-800">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center text-sm p-4 text-gray-500 bg-blue-50">
+    &copy; 2025 Meer Ahmed Rasheed. All rights reserved. | Email: <a href="mailto:meerahmed.rasheed@gmail.com" class="text-blue-600 hover:underline">meerahmed.rasheed@gmail.com</a>
+  </footer>
+</body>
+</html>
