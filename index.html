@@ -37,8 +37,8 @@
   <section id="about" class="py-16 px-6 bg-white">
     <div class="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-10">
       <div class="w-full md:w-1/3">
-        <img src="ChatGPT Image Apr 11, 2025, 12_43_13 AM.png" alt="Meer Ahmed Rasheed" class=" shadow-lg mx-auto w-64 h-100 object-cover border-4  transition-transform duration-300 hover:scale-105">
-    </div>
+        <img src="ChatGPT Image Apr 11, 2025, 12_43_13 AM.png" alt="Meer Ahmed Rasheed" class="shadow-lg mx-auto w-64 h-100 object-cover border-4 transition-transform duration-300 hover:scale-105">
+      </div>
       <div class="w-full md:w-2/3">
         <h2 class="text-3xl font-bold text-blue-900 mb-4">Hi, I'm Meer Ahmed Rasheed</h2>
         <p class="text-gray-700 text-sm leading-relaxed">
@@ -56,7 +56,7 @@
 
   <!-- Card Section -->
   <section id="Resources" class="py-16 px-6 bg-white">
-    <div class="max-w-5xl mx-auto grid md:grid-cols-3 gap-6">
+    <div class="max-w-5xl mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
       <div class="border rounded-lg shadow p-6 text-center">
         <img src="https://cdn-icons-png.flaticon.com/512/1046/1046874.png" alt="Experience Icon" class="w-16 h-16 mx-auto mb-4">
         <h3 class="text-xl font-semibold text-blue-800 mb-2">Experience</h3>
@@ -65,7 +65,7 @@
       <div class="border rounded-lg shadow p-6 text-center">
         <img src="https://cdn-icons-png.flaticon.com/512/1077/1077012.png" alt="Skills Icon" class="w-16 h-16 mx-auto mb-4">
         <h3 class="text-xl font-semibold text-blue-800 mb-2">Skills</h3>
-        <p class="text-sm text-gray-700">Python, Django, HTML/CSS, JavaScript, Git, Docker, DRF, Celery,Channels, PostgreSQL,AWS,EC2,CI/CD,Verserl, Tailwind CSS.</p>
+        <p class="text-sm text-gray-700">Python, Django, HTML/CSS, JavaScript, Git, Docker, DRF, Celery, Channels, PostgreSQL, AWS, EC2, CI/CD, Vercel, Tailwind CSS.</p>
       </div>
       <div class="border rounded-lg shadow p-6 text-center">
         <img src="https://cdn-icons-png.flaticon.com/512/109/109613.png" alt="Projects Icon" class="w-16 h-16 mx-auto mb-4">
@@ -110,45 +110,52 @@
             </div>
             <div class="p-6 md:w-1/2">
               <h3 class="text-xl font-semibold text-blue-800 mb-2">Mastering FastAPI Framework</h3>
-              <p class="text-sm text-gray-700 mb-4">Learn how I structure APIs using FastAPI, define Pydantic models, implement dependency injection, handle authentication and authorization, and manage pagination in production-grade applications.
-
-              </p>
+              <p class="text-sm text-gray-700 mb-4">Learn how I structure APIs using FastAPI, define Pydantic models, implement dependency injection, handle authentication and authorization, and manage pagination in production-grade applications.</p>
               <a href="https://github.com/ahmedraheed" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline font-semibold">Read More →</a>
             </div>
           </div>
-
       </div>
     </div>
   </section>
 
- <!-- Contact Form Section -->
-<section id="contact-form" class="bg-gray-100 py-12 px-6">
-  <div class="max-w-3xl mx-auto bg-white p-10 rounded-lg shadow">
-    <h2 class="text-2xl font-bold text-blue-900 mb-4 text-center">Contact Us</h2>
-
-    <!-- Added enctype for Formspree to work correctly -->
-    <form action="https://formspree.io/f/mnnpwzqo" method="POST" enctype="multipart/form-data" class="space-y-6">
-      <div>
-        <label class="block mb-2 text-sm font-medium text-gray-700">Name</label>
-        <input type="text" name="name" class="w-full border border-gray-300 rounded px-4 py-2" placeholder="Your Name">
-      </div>
-      <div>
-        <label class="block mb-2 text-sm font-medium text-gray-700">Email</label>
-        <input type="email" name="email" class="w-full border border-gray-300 rounded px-4 py-2" placeholder="your@email.com">
-      </div>
-      <div>
-        <label class="block mb-2 text-sm font-medium text-gray-700">Message</label>
-        <textarea name="message" class="w-full border border-gray-300 rounded px-4 py-2" rows="4" placeholder="Write your message..."></textarea>
-      </div>
-      <button type="submit" class="bg-blue-900 text-white px-6 py-2 rounded hover:bg-blue-800">Send Message</button>
-    </form>
-  </div>
-</section>
-
+  <!-- Contact Form Section -->
+  <section id="contact-form" class="bg-gray-100 py-12 px-6">
+    <div class="max-w-3xl mx-auto bg-white p-10 rounded-lg shadow">
+      <h2 class="text-2xl font-bold text-blue-900 mb-4 text-center">Contact Us</h2>
+      <form action="https://formspree.io/f/mnnpwzqo" method="POST" enctype="multipart/form-data" class="space-y-6">
+        <div>
+          <label class="block mb-2 text-sm font-medium text-gray-700">Name</label>
+          <input type="text" name="name" class="w-full border border-gray-300 rounded px-4 py-2" placeholder="Your Name">
+        </div>
+        <div>
+          <label class="block mb-2 text-sm font-medium text-gray-700">Email</label>
+          <input type="email" name="email" class="w-full border border-gray-300 rounded px-4 py-2" placeholder="your@email.com">
+        </div>
+        <div>
+          <label class="block mb-2 text-sm font-medium text-gray-700">Message</label>
+          <textarea name="message" class="w-full border border-gray-300 rounded px-4 py-2" rows="4" placeholder="Write your message..."></textarea>
+        </div>
+        <button type="submit" class="bg-blue-900 text-white px-6 py-2 rounded hover:bg-blue-800">Send Message</button>
+      </form>
+    </div>
+  </section>
 
   <!-- Footer -->
-  <footer class="text-center text-sm p-4 text-gray-500 bg-blue-50">
-    &copy; 2025 Meer Ahmed Rasheed. All rights reserved. | Email: <a href="mailto:meerahmed.rasheed@gmail.com" class="text-blue-600 hover:underline">meerahmed.rasheed@gmail.com</a>
+  <footer class="bg-blue-900 text-white py-8 mt-12">
+    <div class="max-w-6xl mx-auto text-center">
+      <!-- Copyright & Email -->
+      <p class="text-sm mb-3">&copy; 2025 Meer Ahmed Rasheed. All rights reserved.</p>
+      <p class="text-sm mb-4">Connect with me: 
+        <a href="mailto:meerahmed.rasheed@gmail.com" class="text-blue-400 hover:underline">meerahmed.rasheed@gmail.com</a>
+      </p>
+      
+      <!-- Social Media Links -->
+      <div class="flex justify-center space-x-8 mt-4">
+        <a href="https://github.com/ahmedraheed" target="_blank" class="text-blue-400 hover:underline">GitHub</a>
+        <a href="https://www.linkedin.com/in/ahmedraheed" target="_blank" class="text-blue-400 hover:underline">LinkedIn</a>
+        <a href="https://twitter.com/ahmedraheed" target="_blank" class="text-blue-400 hover:underline">Twitter</a>
+      </div>
+    </div>
   </footer>
 </body>
 </html>
